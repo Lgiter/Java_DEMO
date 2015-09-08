@@ -54,6 +54,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+.classpath
+.project
+.settings
 
 # Windows shortcuts
 *.lnk
