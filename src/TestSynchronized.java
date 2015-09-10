@@ -1,7 +1,9 @@
 
 public class TestSynchronized {
+
 	class Foo extends Thread {
 		private String name;
+
 		public Foo(String name) {
 			this.name = name;
 		}
@@ -27,6 +29,7 @@ public class TestSynchronized {
 	}
 
 	public static void main(String[] args) {
+
 		TestSynchronized test = new TestSynchronized();
 		Foo f1 = test.new Foo("li");
 		Foo f2 = test.new Foo("yin");
